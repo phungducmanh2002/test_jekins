@@ -3,7 +3,7 @@ const e = require("express");
 const app = e();
 
 app.use((req, res) => {
-  res.end("oke");
+  res.end("oke lala");
 });
 
 app.listen(300, () => {
